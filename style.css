@@ -2035,6 +2035,9 @@ input[type=search]::-webkit-search-results-decoration {
   .slide-top__subtitle {
     font-size: 16px;
   }
+  .slide-top__shedule {
+    padding-top: 10px;
+  }
 }
 @media (max-height: 697px) {
   .top-page__divisions {
