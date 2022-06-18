@@ -2239,3 +2239,46 @@ input[type="search"]::-webkit-search-results-decoration {
     margin-right: 0;
   }
 }
+
+@media (max-width: 960px) {
+  .slide-top__content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 600px) {
+  .header__nav-md,
+  .footer__content-md {
+    display: none;
+  }
+}
+
+@media (max-width: 1180px) {
+  .our-places__main {
+    margin-right: 0;
+  }
+}
+
+@media (max-height: 860px) and (min-width: 601px) {
+  .slide-top {
+    &__content {
+      position: relative;
+    top: 230px;
+    }
+    &__title {
+      font-size: 30px;
+    }
+    &__subtitle {
+      font-size: 16px;
+    }
+  }
+  
+}
+
+@media (max-height: 697px) {
+  .top-page__divisions {
+    display: none;
+  }
+}
